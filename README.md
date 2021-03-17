@@ -56,19 +56,19 @@ class ViewController: FormViewController {
 
 ```
 
-You must add the **NSPhotoLibraryUsageDescription**  and **NSCameraUsageDescription** keys to your info.plist to use the Photo Library and camera. For more information, take a look at apple [documentation](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html).
+You must add the **NSPhotoLibraryUsageDescription** and **NSCameraUsageDescription** keys to your info.plist to use the Photo Library and camera. For more information, take a look at apple [documentation](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html).
 
 ## Requirements
 
-* iOS 9.3+
-* Xcode 10.2+
-* Eureka ~> 5.0
+- iOS 9.3+
+- Xcode 10.2+
+- Eureka ~> 5.3
 
 ## Getting involved
 
-* If you **want to contribute** please feel free to **submit pull requests**.
-* If you **have a feature request** please **open an issue**.
-* If you **found a bug** or **need help** please **check older issues, [FAQ](#faq) before submitting an issue.**.
+- If you **want to contribute** please feel free to **submit pull requests**.
+- If you **have a feature request** please **open an issue**.
+- If you **found a bug** or **need help** please **check older issues, [FAQ](#faq) before submitting an issue.**.
 
 Before contribute check the [CONTRIBUTING](https://github.com/EurekaCommunity/ImageRow/blob/master/CONTRIBUTING.md) file for more info.
 
@@ -76,9 +76,9 @@ If you use **ImageRow** in your app We would love to hear about it! Drop us a li
 
 ## Examples
 
-Follow these 3 steps to run Example project: Clone ImageRow repository, run `carthage update` from project root folder, open ImageRow workspace and run the *Example* project.
+Follow these 3 steps to run Example project: Clone ImageRow repository, run `carthage update` from project root folder, open ImageRow workspace and run the _Example_ project.
 
-You can also experiment and learn with the *ImageRow Playground* which is contained in *ImageRow.workspace*.
+You can also experiment and learn with the _ImageRow Playground_ which is contained in _ImageRow.workspace_.
 
 ## Installation
 
@@ -106,17 +106,17 @@ github "EurekaCommunity/ImageRow" ~> 4.0
 
 ImageRow has 5 properties to customize:
 
-* `sourceTypes` which allows us to specify the source of the picture. It could be .PhotoLibrary, .Camera, .SavedPhotosAlbum, or any combination of the previous values since `sourceTypes` property type is `ImageRowSourceTypes` which conforms to `OptionSet`.
-* `clearAction` let's us add a clear action sheet option  and configure its style. Possible values are: `.no` or `.yes(style: UIAlertActionStyle)`. Notice that .yes value requires we pass a `UIAlertActionStyle` style.
-* `allowEditor` tells the `ImagePickerController` to use the standard system image editor after a Image is selected. Possible values are: `true` or `false`. The default value for this property is `false`.
-* `useEditedImage` tells the `ImageRow` to use the edited Image from the editor instead of the original one. Possible values are: `true` or `false`. The default value for this property is `false`.
-* `userPickerInfo` this property holds the `info` properties of the `ImagePickerController` after a edited Image is selected, this can be used to further customization or information usage of the selected image. By default this property is `nil`.
+- `sourceTypes` which allows us to specify the source of the picture. It could be .PhotoLibrary, .Camera, .SavedPhotosAlbum, or any combination of the previous values since `sourceTypes` property type is `ImageRowSourceTypes` which conforms to `OptionSet`.
+- `clearAction` let's us add a clear action sheet option and configure its style. Possible values are: `.no` or `.yes(style: UIAlertActionStyle)`. Notice that .yes value requires we pass a `UIAlertActionStyle` style.
+- `allowEditor` tells the `ImagePickerController` to use the standard system image editor after a Image is selected. Possible values are: `true` or `false`. The default value for this property is `false`.
+- `useEditedImage` tells the `ImageRow` to use the edited Image from the editor instead of the original one. Possible values are: `true` or `false`. The default value for this property is `false`.
+- `userPickerInfo` this property holds the `info` properties of the `ImagePickerController` after a edited Image is selected, this can be used to further customization or information usage of the selected image. By default this property is `nil`.
 
 To localize the Actionsheet strings just add the keys `"Take photo", "Photo Library", "Saved Photos", "Cancel", "Clear Photo"` to your Localizable.strings file
 
 ## Author
 
-* [Xmartlabs SRL](https://github.com/xmartlabs) ([@xmartlabs](https://twitter.com/xmartlabs))
+- [Xmartlabs SRL](https://github.com/xmartlabs) ([@xmartlabs](https://twitter.com/xmartlabs))
 
 # Change Log
 
