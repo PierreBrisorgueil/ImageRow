@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28BDF6141DA43255000518EB /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BDF6101DA4323E000518EB /* Eureka.framework */; };
-		28BDF6151DA43255000518EB /* Eureka.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28BDF6101DA4323E000518EB /* Eureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28F828D01C4B714D00330CF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F828CF1C4B714D00330CF4 /* AppDelegate.swift */; };
 		28F828D21C4B714D00330CF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F828D11C4B714D00330CF4 /* ViewController.swift */; };
 		28F828D51C4B714D00330CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F828D31C4B714D00330CF4 /* Main.storyboard */; };
@@ -18,6 +16,7 @@
 		8FE3CC2E2165096C00A85D97 /* ImageRow.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9CAB221D89C756006E1824 /* ImageRow.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9A61F6D11EB9211100CBE062 /* CustomRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A61F6D01EB9211100CBE062 /* CustomRow.xib */; };
 		9A61F6D51EB9227500CBE062 /* CustomPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A61F6D41EB9227500CBE062 /* CustomPickerController.swift */; };
+		BF6E416E260255DF008B216A /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6E416D260255DF008B216A /* Eureka.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +50,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				28BDF6151DA43255000518EB /* Eureka.framework in Embed Frameworks */,
 				8FE3CC2E2165096C00A85D97 /* ImageRow.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -61,7 +59,6 @@
 
 /* Begin PBXFileReference section */
 		287D0A741C4B7B26004566D6 /* ImageRow.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ImageRow.xcodeproj; path = ../ImageRow.xcodeproj; sourceTree = "<group>"; };
-		28BDF6101DA4323E000518EB /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = ../Carthage/Build/iOS/Eureka.framework; sourceTree = "<group>"; };
 		28F828CC1C4B714D00330CF4 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F828CF1C4B714D00330CF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Example/AppDelegate.swift; sourceTree = "<group>"; };
 		28F828D11C4B714D00330CF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Example/ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +68,7 @@
 		28F828DB1C4B714D00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Info.plist; sourceTree = "<group>"; };
 		9A61F6D01EB9211100CBE062 /* CustomRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomRow.xib; sourceTree = "<group>"; };
 		9A61F6D41EB9227500CBE062 /* CustomPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerController.swift; sourceTree = "<group>"; };
+		BF6E416D260255DF008B216A /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = "../Carthage/Build/Eureka.xcframework/ios-arm64_armv7/Eureka.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28BDF6141DA43255000518EB /* Eureka.framework in Frameworks */,
+				BF6E416E260255DF008B216A /* Eureka.framework in Frameworks */,
 				8FE3CC2D2165096C00A85D97 /* ImageRow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,7 +87,7 @@
 		28BDF6071DA42A90000518EB /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				28BDF6101DA4323E000518EB /* Eureka.framework */,
+				BF6E416D260255DF008B216A /* Eureka.framework */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
